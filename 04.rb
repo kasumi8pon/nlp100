@@ -1,5 +1,5 @@
 sentence = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
-words = sentence.split.map { |word| word.match(/\w+/).to_a[0] }
+words = sentence.split(/\W+/)
 one_char = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 
 hash = {}
